@@ -3,49 +3,7 @@ Problem Statement:
 Write a program that prints "Hello, Python!" on the screen.
 print ('Hello, Python')
 
-Program 8: Simple Interest Calculator
-Problem Statement:
-Calculate Simple Interest using
-SI = (P × R × T) / 100,
-where P = principal, R = rate, T = time.
 
-P = float(input("Enter the principal amount (P): "))
-R = float(input("Enter the rate of interest (R) in percentage: "))
-T = float(input("Enter the time (T) in years: "))   
-SI = (P * R * T) / 100
-print(f"Simple Interest is: {SI}") 
-
-
-Program 9: String Length Finder
-Problem Statement:
-Ask the user for a string and print the number of characters in it (excluding spaces).
-
-user_string = input("Enter a string: ")
-# Remove spaces from the string
-string_without_spaces = user_string.replace(" ", "")
-# Calculate the length of the string without spaces
-length = len(string_without_spaces)
-print(f"The number of characters (excluding spaces) is: {length}")
-
-
-Program 10: Swap Two Variables
-Problem Statement:
-Swap the values of two variables:
-Using a temporary variable
-Without using a temporary variable
-
-# Using a temporary variable
-a = 5
-b = 10
-temp = a
-a = b
-b = temp
-print(f"After swap using temporary variable: a = {a}, b = {b}")
-# Without using a temporary variable
-a = 5
-b = 10
-a, b = b, a # Swapping values using tuple unpacking
-print(f"After swap without using temporary variable: a = {a}, b = {b}")
 
 
 
