@@ -1,1 +1,7 @@
+Program 2: Print Personal Information
+Problem Statement:
+Write a program that stores your name, age, and city in variables and prints them in a formatted sentence.
+Name = "Jaagrav"
+Age = 18
+Country = "India"
 
