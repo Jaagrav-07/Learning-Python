@@ -1,0 +1,11 @@
+Program 5: Assume a suitable value for temprature of a city in Fahrenheit degress. Write a program to convert this temprature into Centigrade degrees and print both tempratures
+
+# Assume a suitable value for temperature in Fahrenheit
+temperature_fahrenheit = 68  # You can change this value (e.g., 32, 212, 98.6)
+
+# Convert Fahrenheit to Centigrade
+temperature_centigrade = (temperature_fahrenheit - 32) * 5/9
+
+# Print both temperatures
+print(f"Fahrenheit: {temperature_fahrenheit:.2f}")
+print(f"Centigrade: {temperature_centigrade:.2f}")

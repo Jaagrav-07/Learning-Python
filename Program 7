@@ -1,0 +1,13 @@
+Program 7: Maximum of Two Numbers
+Problem Statement:
+Take two numbers as input and print the larger number. If both are equal, print a suitable message
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if num1 > num2:
+    print(f"{num1} is larger.")
+elif num2 > num1:
+    print(f"{num2} is larger.")
+else:
+    print("Both numbers are equal.")
