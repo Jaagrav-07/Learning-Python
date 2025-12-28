@@ -1,0 +1,150 @@
+Program 1: Hello, Python
+Problem Statement:
+Write a program that prints "Hello, Python!" on the screen.
+print ('Hello, Python')
+
+
+Program 2: Print Personal Information
+Problem Statement:
+Write a program that stores your name, age, and city in variables and prints them in a formatted sentence.
+Name = "Jaagrav"
+Age = 18
+Country = "India"
+
+print(f"My name is {Name}. I am {Age} years old and I live in {Country}.")
+
+
+Program 3: Simple Arithmetic Operations
+Problem Statement:
+Take integers as input and display their sum, difference, product, quotient, and remainder.
+
+a = 5
+b = 10
+a = 10
+b = 25
+c = 15
+d = 30
+e = 2
+f = 3
+g = 5
+h = 99999999999999999
+i = 54321
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
+
+print(3/4)
+print(3//4)
+print(3%4)
+print(3**4)
+print(h*i)
+
+w = a+b-c
+x = d**e
+y = f%g
+
+print(w,x,y)
+
+
+Program 4: Area of a Rectangle
+Problem Statement:
+Ask the user for the length and breadth of a rectangle and calculate its area.
+
+b = input('Enter Value:  ')
+h = input('Enter Value:  ')
+
+base = int(b)
+height = int(h)
+
+area = 1/2*(base*height)
+print(area)
+
+
+Program 5: Assume a suitable value for temprature of a city in Fahrenheit degress. Write a program to convert this temprature into Centigrade degrees and print both tempratures
+
+# Assume a suitable value for temperature in Fahrenheit
+temperature_fahrenheit = 68  # You can change this value (e.g., 32, 212, 98.6)
+
+# Convert Fahrenheit to Centigrade
+temperature_centigrade = (temperature_fahrenheit - 32) * 5/9
+
+# Print both temperatures
+print(f"Fahrenheit: {temperature_fahrenheit:.2f}")
+print(f"Centigrade: {temperature_centigrade:.2f}")
+
+
+Program 6: Even or Odd Checker
+Problem Statement:
+Take an integer as input and determine whether it is even or odd.
+
+num = int(input("Enter an integer: "))
+if num % 2 == 0:
+    print(f"{num} is even.")
+else:
+    print(f"{num} is odd.")
+
+
+Program 7: Maximum of Two Numbers
+Problem Statement:
+Take two numbers as input and print the larger number. If both are equal, print a suitable message
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if num1 > num2:
+    print(f"{num1} is larger.")
+elif num2 > num1:
+    print(f"{num2} is larger.")
+else:
+    print("Both numbers are equal.")
+
+
+Program 8: Simple Interest Calculator
+Problem Statement:
+Calculate Simple Interest using
+SI = (P × R × T) / 100,
+where P = principal, R = rate, T = time.
+
+P = float(input("Enter the principal amount (P): "))
+R = float(input("Enter the rate of interest (R) in percentage: "))
+T = float(input("Enter the time (T) in years: "))   
+SI = (P * R * T) / 100
+print(f"Simple Interest is: {SI}") 
+
+
+Program 9: String Length Finder
+Problem Statement:
+Ask the user for a string and print the number of characters in it (excluding spaces).
+
+user_string = input("Enter a string: ")
+# Remove spaces from the string
+string_without_spaces = user_string.replace(" ", "")
+# Calculate the length of the string without spaces
+length = len(string_without_spaces)
+print(f"The number of characters (excluding spaces) is: {length}")
+
+
+Program 10: Swap Two Variables
+Problem Statement:
+Swap the values of two variables:
+Using a temporary variable
+Without using a temporary variable
+
+# Using a temporary variable
+a = 5
+b = 10
+temp = a
+a = b
+b = temp
+print(f"After swap using temporary variable: a = {a}, b = {b}")
+# Without using a temporary variable
+a = 5
+b = 10
+a, b = b, a # Swapping values using tuple unpacking
+print(f"After swap without using temporary variable: a = {a}, b = {b}")
+
+
+
