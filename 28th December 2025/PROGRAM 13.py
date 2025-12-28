@@ -1,0 +1,18 @@
+#Program 10: Swap Two Variables
+#Problem Statement:
+#Swap the values of two variables:
+#Using a temporary variable
+#Without using a temporary variable
+
+# Using a temporary variable
+a = 5
+b = 10
+temp = a
+a = b
+b = temp
+print(f"After swap using temporary variable: a = {a}, b = {b}")
+# Without using a temporary variable
+a = 5
+b = 10
+a, b = b, a # Swapping values using tuple unpacking
+print(f"After swap without using temporary variable: a = {a}, b = {b}")
