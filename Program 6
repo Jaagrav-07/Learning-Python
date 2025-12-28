@@ -1,0 +1,9 @@
+Program 6: Even or Odd Checker
+Problem Statement:
+Take an integer as input and determine whether it is even or odd.
+
+num = int(input("Enter an integer: "))
+if num % 2 == 0:
+    print(f"{num} is even.")
+else:
+    print(f"{num} is odd.")
