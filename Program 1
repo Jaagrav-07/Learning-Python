@@ -3,17 +3,6 @@ Problem Statement:
 Write a program that prints "Hello, Python!" on the screen.
 print ('Hello, Python')
 
-
-Program 2: Print Personal Information
-Problem Statement:
-Write a program that stores your name, age, and city in variables and prints them in a formatted sentence.
-Name = "Jaagrav"
-Age = 18
-Country = "India"
-
-print(f"My name is {Name}. I am {Age} years old and I live in {Country}.")
-
-
 Program 3: Simple Arithmetic Operations
 Problem Statement:
 Take integers as input and display their sum, difference, product, quotient, and remainder.
