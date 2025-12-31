@@ -1,0 +1,18 @@
+#Program 4: Count Digits in a Number
+#Problem Statement:
+#Take an integer as input and count the number of digits using a while loop.
+
+num = int(input("Enter an integer: "))
+
+if num == 0:
+    print("The number of digits in 0 is: 1")
+else:
+    count = 0
+
+    temp_num = abs(num) 
+   
+    while temp_num > 0:
+        temp_num //= 10 
+        count += 1
+
+    print(f"The number of digits in {num} is: {count}")
