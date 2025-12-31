@@ -2,16 +2,4 @@
 #Problem Statement:
 #Find the sum of digits of a given number using a loop.
 
-num = int(input("Enter an integer: "))
 
-original_num = num 
-sum_of_digits = 0
-
-temp_num = abs(num)
-
-while temp_num > 0:
-    digit = temp_num % 10 
-    sum_of_digits += digit 
-    temp_num //= 10 
-
-print(f"The sum of digits of {original_num} is: {sum_of_digits}")
