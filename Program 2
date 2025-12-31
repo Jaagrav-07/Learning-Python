@@ -1,0 +1,12 @@
+#Program 2: Sum of First N Natural Numbers
+#Problem Statement:
+#Calculate and print the sum of the first N natural numbers using a loop (do not use formula).
+
+N = int(input("Enter an integer N: "))
+
+current_sum = 0
+
+for i in range(1, N + 1):
+    current_sum += i
+
+print(f"The sum of the first {N} natural numbers is: {current_sum}")
