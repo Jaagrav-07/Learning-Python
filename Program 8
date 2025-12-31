@@ -1,0 +1,12 @@
+#Program 8: Print Even Numbers in a Range
+#Problem Statement:
+#Ask the user for a start and end value and print all even numbers in that range.
+
+start_value = int(input("Enter the starting value of the range: "))
+end_value = int(input("Enter the ending value of the range: "))
+
+print(f"Even numbers between {start_value} and {end_value} (inclusive):")
+
+for num in range(start_value, end_value + 1):
+    if num % 2 == 0:
+        print(num)
