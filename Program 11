@@ -1,0 +1,12 @@
+#Reverse the String
+
+s = 'Java'
+char = ''
+reversed_string = "" 
+length = len(s) - 1  #Initializes counter to the index of the last character in the string 
+while length >= 0:        # Starts a loop that continues as long as the index is 0 or greater, ensuring every character is processed
+        reversed_string += s[length]  #Accesses the character at the current index and appends it to the end of the new string
+        length -= 1           #Decreases the index by 1 to move to the previous character in the next iteration
+#for char in s:
+#reversed_string = char + reversed_string
+print(reversed_string)
