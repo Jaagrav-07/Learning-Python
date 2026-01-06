@@ -1,0 +1,6 @@
+#Program 10: Simple Number Guessing Game
+#Task:
+#Store a fixed number (e.g., 7)
+#Ask the user to guess the number
+#Print whether the guess is correct, too high, or too low
+
