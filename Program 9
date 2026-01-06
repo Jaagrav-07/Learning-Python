@@ -1,0 +1,14 @@
+#Program 9: Factorial of a Number
+#Task:
+#Calculate the factorial of a given number using a loop.
+
+num = int(input("Enter a non-negative integer: "))
+factorial = 1 # Sets the starting value of the result to 1.
+if num < 0: #Checks if the number is negative.
+     print("Factorial is not defined for negative numbers.")
+elif num == 0: #Specifically checks if the input is zero
+     print("The factorial of 0 is 1.")
+else: #Runs if the nos 1 or greater
+    for i in range(1, num + 1):  #Loops through every number from 1 up to the i (i is included)(4 - loop 1,2,3,4)
+        factorial *= i #Multiplies the current total by the loop number (running product)( 4! = 1*2*3*4)
+    print(f"The factorial of {num} is: {factorial}")    
