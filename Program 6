@@ -1,0 +1,23 @@
+#Program 6: Count Digits in a Number
+#Task:
+#Given an integer, count how many digits it contains.
+#Constraint:
+#Do not convert the number to a string.
+
+num = int(input("Enter an integer: "))
+if num == 0:  
+    # Checks if the input is zero since zero has one digit
+    print("The number of digits in 0 is: 1") 
+    # Directly prints "1" if the input was zero and ends the check there.
+else:
+    count = 0 
+    # Initialize digit count
+    temp_num = abs(num)  
+    # Handle negative numbers by taking absolute value
+
+    while temp_num > 0:
+        # Starts a loop that continues as long as there are still digits left to count.
+        temp_num //= 10  # Remove the last digit
+        count += 1
+
+    print(f"The number of digits in {num} is: {count}")
