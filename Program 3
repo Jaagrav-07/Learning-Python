@@ -1,0 +1,8 @@
+#Program 3: Print First N Natural Numbers
+#Task:
+#Input a number N and print the first N natural numbers using a loop.
+
+N = int(input("Enter an integer N: "))
+print(f"The first {N} natural numbers are:")
+for i in range(1, N + 1): #This creates a sequence of numbers starting at 1 and ending just before N + 1
+    print(i)
