@@ -1,0 +1,12 @@
+#Program 7: Reverse a Number
+#Task:
+#Reverse a given integer using a loop.
+
+num = int(input("Enter an integer: "))
+reversed_num = 0 # We will build the reversed number here.
+temp_num = num # Temporary variable to hold the value of num for manipulation.
+while temp_num != 0: # Continue until there are no digits left in temp_num.
+    digit = temp_num % 10 # Get the last digit of temp_num.
+    reversed_num = reversed_num * 10 + digit # Add the digit to reversed_num.
+    temp_num //= 10 # Remove the last digit from temp_num.
+print(f"The reverse of {num} is: {reversed_num}")
