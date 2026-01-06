@@ -1,0 +1,15 @@
+#Program 2: Find the Largest of Three Numbers
+#Task:
+#Accept three numbers from the user and determine the largest among them without using built-in max().
+
+num1 = float(input("Enter the first number: "))  
+# Float - Takes that input as string and converts it into a decimal a float which is stored as variable
+
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))     
+if (num1 >= num2) and (num1 >= num3):
+    largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+    largest = num2
+else:
+    largest = num3
