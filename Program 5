@@ -1,0 +1,8 @@
+#Program 5: Multiplication Table
+#Task:
+#Display the multiplication table of a given number up to 10.
+
+num = int(input("Enter a number: "))
+print(f"Multiplication Table for {num}:")
+for i in range(1, 11): # Starts a loop that counts from 1 to 10 (stops before 11).
+    print(f"{num} x {i} = {num * i}")  # Calculates num times i and prints the result in a standard "A x B = C" format.
