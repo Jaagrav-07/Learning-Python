@@ -1,0 +1,4 @@
+#Print a sentence using multiple print() statements.
+
+print("Hello,")
+print("Welcome to India!")
