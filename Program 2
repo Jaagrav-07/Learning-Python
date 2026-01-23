@@ -1,0 +1,9 @@
+#Print your name, age, and city on separate lines.
+
+a = "John Doe"
+b = 18
+c = "Jeruselum"
+
+print(a)
+print(b)
+print(c)
