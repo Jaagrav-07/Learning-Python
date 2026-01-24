@@ -1,0 +1,6 @@
+#Print numbers from 10 to 1 using while.
+
+i = 10  # Initialize the counter variable
+while i >= 1:  # Continue the loop as long as i is greater than or
+    print(i)  # Print the current value of i
+    i -= 1  # Decrement i by 1
