@@ -1,0 +1,5 @@
+#Store your age and check its data type.
+
+age = 25  
+print("Age:", age)
+print("Data type of age:", type(age))
