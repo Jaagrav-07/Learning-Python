@@ -1,7 +1,0 @@
-#Take a temperature as input and check whether it is above normal (greater than 37).
-
-temperature = float(input("Enter the temperature in Celsius: "))
-if temperature > 37:
-    print("The temperature is above normal.")
-else:
-    print("The temperature is normal or below normal.")

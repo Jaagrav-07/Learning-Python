@@ -1,8 +1,0 @@
-#Keep taking numbers from the user until they enter 0.
-
-while True:
-    num = int(input("Enter a number (0 to stop): "))
-    if num == 0:
-        print("Stopping the input.")
-    else:
-        print(f"You entered: {num}")

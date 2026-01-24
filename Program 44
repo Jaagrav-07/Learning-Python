@@ -1,9 +1,0 @@
-#Count digits in a number using while.
-
-num = int(input("Enter an integer: "))
-digit_count = 0
-temp_num = abs(num)  # Use absolute value to handle negative numbers
-while temp_num > 0:
-    temp_num //= 10  # Remove the last digit
-    digit_count += 1  # Increment the digit count
-print(f"The number of digits in {num} is: {digit_count}")

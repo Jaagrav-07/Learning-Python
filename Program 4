@@ -1,7 +1,0 @@
-#Take a string input and print it along with its data type.
-
-
-input_string = input("Enter a string: ")
-
-print(f"You entered: {input_string}")
-print(f"Data type: {type(input_string)}")
