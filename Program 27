@@ -1,0 +1,5 @@
+#Store boolean value and print it.
+
+is_fact = True
+print("Is fact:", is_fact)
+print("NMS biggest stadium:", is_fact)
