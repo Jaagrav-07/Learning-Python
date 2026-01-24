@@ -1,0 +1,7 @@
+#Count the number of digits in a number using a for loop.
+
+num = int(input("Enter an integer: "))
+digit_count = 0
+for digit in str(abs(num)):  # Convert to string to iterate over each digit
+    digit_count += 1    
+print(f"The number of digits in {num} is: {digit_count}")
