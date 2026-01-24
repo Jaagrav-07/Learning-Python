@@ -1,0 +1,5 @@
+#Print a tab-separated output.
+
+print("Name:\tJaagrav")
+print("Age:\t18")
+print("City:\tVadodara")
