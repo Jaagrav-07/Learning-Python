@@ -1,0 +1,49 @@
+#Do the following operations:
+
+#_1. Add two numbers.
+#_2. Subtract two numbers.
+#_3. Multiply two numbers.
+#_4. Divide two numbers.
+#_5. Find remainder using %.
+#_6. Find quotient using //.
+#_7. Simple Interest = (Principal * Rate * Time) / 100
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Remainder (a % b):", a % b)
+print("Quotient (a // b):", a // b)
+
+
+# Simple Interest = (Principal * Rate * Time) / 100
+P = float(input("Enter Principal amount: "))
+R = float(input("Enter Rate of interest: "))
+T = float(input("Enter Time (in years): "))
+SI = (P * R * T) / 100
+print("Simple Interest:", SI)
+
+
+# Area of Circle = π * r^2
+import math
+r = float(input("Enter radius of circle: "))
+area = math.pi * r * r
+print("Area of Circle:", area)
+
+
+# Celsius to Fahrenheit: F = (C * 9/5) + 32
+C = float(input("Enter temperature in Celsius: "))
+F = (C * 9/5) + 32
+print("Temperature in Fahrenheit:", F)
+
+
+# Average of three numbers
+num1 = float(input("Enter first number for average: "))
+num2 = float(input("Enter second number for average: "))
+num3 = float(input("Enter third number for average: "))
+average = (num1 + num2 + num3) / 3
+print("Average of three numbers:", average)
