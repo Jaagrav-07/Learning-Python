@@ -1,0 +1,4 @@
+#Take input and print it three times.
+
+user_input = input("Enter something: ")
+print(user_input * 3)
