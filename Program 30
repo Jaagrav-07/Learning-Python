@@ -1,0 +1,6 @@
+#Assign same value to three variables.
+
+x = y = z = 10
+print("Value of x:", x)
+print("Value of y:", y)
+print("Value of z:", z)
