@@ -1,0 +1,32 @@
+#'if' Statement (10 Programs)
+#_1. Check if number is positive.
+#_2. Check if number is negative.
+#_3. Check if number is zero.
+#_4. Check if number is even.
+#_5. Check if number is odd.
+#_6. Check if age is eligible to vote.
+#_7. Check if number is divisible by 5.
+#_8. Check if marks are greater than 40.
+#_9. Check if temperature is high.
+#_10. Check if year is after 2000.
+
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is even.")
+if num % 2 != 0:
+    print(f"{num} is odd")
+if num > 0:
+    print(f"{num} Positive")
+if num < 0:
+    print(f"{num} Negative")
+if num >= 18:
+    print("Eligible to vote")
+if num % 5 == 0:
+    print(f"{num} is divisible by 5.")
+if num > 40:
+    print(f"{num} marks are greater than 40.")
+if num > 37:
+    print(f"{num} temperature is high.")
+if num > 2000:
+    print(f"{num} year is after 2000.")
