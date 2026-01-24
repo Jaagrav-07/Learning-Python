@@ -1,0 +1,46 @@
+#Basic Functions (10 Programs)
+#_1. Function to print greeting.
+#_2. Function to add two numbers.
+#_3. Function to find square.
+#_4. Function to check even or odd.
+#_5. Function to find maximum of two numbers.
+#_6. Function to calculate area of rectangle.
+#_7. Function to convert Celsius to Fahrenheit.
+#_8. Function to count characters in string.
+#_9. Function to print table of a number.
+#_10. Function to check positive or negative.
+
+
+def greet():
+    print("Hello! Welcome to Python programming.")
+greet()
+def add(a, b):
+    return a + b
+print("Sum of 5 and 3 is:", add(5, 3))
+def square(n):
+    return n * n
+print("Square of 4 is:", square(4))
+def is_even(num):
+    return num % 2 == 0
+print("Is 6 even?", is_even(6))
+def max_of_two(a, b):
+    return a if a > b else b
+print("Maximum of 10 and 20 is:", max_of_two(10, 20))
+def area_of_rectangle(length, width):
+    return length * width
+print("Area of rectangle (5x3):", area_of_rectangle(5, 3))
+def celsius_to_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+print("25°C in Fahrenheit is:", celsius_to_fahrenheit(25))
+def count_characters(s):
+    return len(s)
+print("Number of characters in 'Python':", count_characters("Python"))
+def print_table(num):
+    print(f"Multiplication table of {num}:")
+    for i in range(1, 11):
+        print(f"{num} x {i} = {num * i}")
+print_table(7)
+def is_positive(num):
+    return num > 0
+print("Is -5 positive?", is_positive(-5))
+# --- IGNORE ---
