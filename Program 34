@@ -1,0 +1,54 @@
+#if–else Statement (10 Programs)
+#_1. Check even or odd.
+#_2. Check pass or fail.
+#_3. Check positive or negative.
+#_4. Check eligible for license.
+#_5. Check greater of two numbers.
+#_6. Check number divisible by 3.
+#_7. Check if character is vowel.
+#_8. Check if number is multiple of 10.
+#_9. Check if age is adult or minor.
+#_10. Check if input string is empty.
+
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is even.")
+else:
+    print(f"{num} is odd.")
+if num > 0:
+    print(f"{num} is positive.")
+else:
+    print(f"{num} is negative.")
+if num % 3 == 0:
+    print(f"{num} is divisible by 3.")
+else:
+    print(f"{num} is not divisible by 3.")
+
+
+marks = float(input("Enter your marks: "))
+if marks >= 40:
+    print("You have passed.")
+else:
+    print("You have failed.")
+
+
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("Eligible for license.")
+else:
+    print("Not eligible for license.")
+
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+if num1 > num2:
+    print(f"{num1} is greater than {num2}.")
+else:
+    print(f"{num2} is greater than {num1}.")
+
+char = input("Enter a character: ").lower()
+if char in 'aeiou':
+    print(f"{char} is a vowel.")
+else:
+    print(f"{char} is not a vowel.")
