@@ -1,0 +1,5 @@
+#Print a simple ASCII pattern (3 lines).
+
+print("  *  ")
+print(" *** ")
+print("*****")
