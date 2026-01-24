@@ -1,0 +1,11 @@
+#Take a number as input and print its square and cube.
+
+num = float(input("Enter a number: "))
+
+# Calculate square
+square_result = num ** 2
+print(f"Square: {square_result}")
+
+# Calculate cube
+cube_result = num ** 3
+print(f"Cube: {cube_result}")
