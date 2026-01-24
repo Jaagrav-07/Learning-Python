@@ -1,0 +1,142 @@
+#if–elif–else (10 Programs)
+#_1. Grade system (A/B/C/Fail).
+#_2. Largest of three numbers.
+#_3. Number sign (positive/negative/zero).  
+#_4. Day of week using number.
+#_5. Traffic signal color action.
+#_6. Temperature category.
+#_7. Simple calculator using if–elif.
+#_8. Month name using number.
+#_9. Age group classification.
+
+
+
+marks = float(input("Enter your marks: "))
+if marks >= 85:
+    print("Grade: A")
+elif marks >= 70:
+    print("Grade: B")
+elif marks >= 50:
+    print("Grade: C")
+else:
+    print("Grade: Fail")
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+if a >= b and a >= c:
+    print(f"{a} is the largest number.")
+elif b >= a and b >= c:
+    print(f"{b} is the largest number.")
+else:
+    print(f"{c} is the largest number.")
+
+
+num = float(input("Enter a number: "))
+if num > 0:
+    print(f"{num} is positive.")
+elif num < 0:
+    print(f"{num} is negative.")
+else:
+    print("The number is zero.")
+
+
+day_num = int(input("Enter day number (1-7): "))
+if day_num == 1:
+    print("Monday")
+elif day_num == 2:
+    print("Tuesday")
+elif day_num == 3:
+    print("Wednesday")
+elif day_num == 4:
+    print("Thursday")
+elif day_num == 5:
+    print("Friday")
+elif day_num == 6:
+    print("Saturday")
+elif day_num == 7:
+    print("Sunday")
+else:
+    print("Invalid day number.")
+
+
+colour = input("Enter traffic signal color (red/yellow/green): ").lower()
+if colour == 'red':
+    print("Stop")
+elif colour == 'yellow':
+    print("Get Ready")
+elif colour == 'green':
+    print("Go")
+else:
+    print("Invalid color.")
+
+
+temp = float(input("Enter the temperature in °C: "))
+if temp < 0:
+    print("Freezing")
+elif 0 <= temp <= 15:
+    print("Cold")
+elif 16 <= temp <= 25:
+    print("Warm")
+else:
+    print("Hot")
+
+
+month_num = int(input("Enter month number (1-12): "))
+if month_num == 1:
+    print("January")
+elif month_num == 2:
+    print("February")
+elif month_num == 3:
+    print("March")
+elif month_num == 4:
+    print("April")
+elif month_num == 5:
+    print("May")
+elif month_num == 6:
+    print("June")
+elif month_num == 7:
+    print("July")
+elif month_num == 8:
+    print("August")
+elif month_num == 9:
+    print("September")
+elif month_num == 10:
+    print("October")
+elif month_num == 11:
+    print("November")
+elif month_num == 12:
+    print("December")
+else:
+    print("Invalid month number.")
+
+
+age = int(input("Enter your age: "))
+if age <= 12:
+    print("Child")
+elif 13 <= age <= 19:
+    print("Teenager")
+elif 20 <= age <= 59:
+    print("Adult")
+else:
+    print("Senior")
+
+
+operation = input("Enter operation (+, -, *, /): ")
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+if operation == '+':
+    print("Result:", num1 + num2)
+elif operation == '-':
+    print("Result:", num1 - num2)
+elif operation == '*':
+    print("Result:", num1 * num2)
+elif operation == '/':
+    if num2 != 0:
+        print("Result:", num1 / num2)
+    else:
+        print("Error: Division by zero.")
+else:
+    print("Invalid operation.")
+
