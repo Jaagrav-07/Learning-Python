@@ -1,0 +1,7 @@
+#Swap two variables without using a third variable
+
+a = int(input("Enter first number (a): "))
+b = int(input("Enter second number (b): "))
+print("Before swapping: a =", a, ", b =", b)
+
+print("After swapping: a =", b, ", b =", a)
