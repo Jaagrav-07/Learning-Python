@@ -1,0 +1,5 @@
+#Print a formatted sentence without using f-strings.
+
+name = "Jaagrav"
+age = 18
+print("My name is", name, "and I am", age, "years old.")
