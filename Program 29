@@ -1,0 +1,7 @@
+#Store a number and print whether it is int or float.
+
+num = float(input("Enter a number: "))
+if num.is_integer():
+    print("The number is of type: int")
+else:
+    print("The number is of type: float")
