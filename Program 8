@@ -1,0 +1,4 @@
+#Print two values in one print() using commas.
+
+print("Hello", "Siri")
+print(10, 20)
