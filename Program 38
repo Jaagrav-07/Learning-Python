@@ -1,0 +1,50 @@
+#range() Function (10 Programs)
+#_1. Print numbers using range(10).
+#_2. Print numbers from 5 to 15.
+#_3. Print even numbers using step.
+#_4. Print odd numbers using step.
+#_5. Print numbers in reverse order.
+#_6. Sum numbers using range().
+#_7. Print squares using range().
+#_8. Print table using range().
+#_9. Print numbers divisible by 3.
+#_10. Count iterations using range().
+
+
+print("Numbers using range(10):")
+for i in range(10):
+    print(i)
+print("Numbers from 5 to 15:")
+for i in range(5, 16):
+    print(i)
+print("Even numbers using step:")
+for i in range(0, 21, 2):
+    print(i)
+print("Odd numbers using step:")
+for i in range(1, 21, 2):
+    print(i)
+print("Numbers in reverse order:")
+for i in range(10, 0, -1):
+    print(i)
+print("Sum of numbers using range():")
+sum = 0
+for i in range(1, 11):
+    sum += i
+print(f"Sum from 1 to 10 is: {sum}")
+print("Squares using range():")
+for i in range(1, 11):
+    print(f"{i}^2 = {i**2}")
+
+num = int(input("Enter a number to print its table: "))
+print(f"Multiplication table of {num}:")
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
+print("Numbers divisible by 3:")
+for i in range(1, 31):
+    if i % 3 == 0:
+        print(i)
+print("Count iterations using range():")
+count = 0
+for i in range(1, 21):
+    count += 1
+print(f"Total iterations from 1 to 20: {count}")
