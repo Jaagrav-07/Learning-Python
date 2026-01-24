@@ -1,0 +1,9 @@
+#Take a number as input and print its type before and after converting it to float.
+
+num_input = input("Enter a number: ")
+
+print(f"Type before conversion: {type(num_input)}")
+
+num_float = float(num_input)
+
+print(f"Type after conversion: {type(num_float)}")

@@ -1,0 +1,5 @@
+#Take a string input and print the number of characters in it.
+
+input_string = input("Enter a string: ")
+char_count = len(input_string)
+print(f"The number of characters in the string is: {char_count}")

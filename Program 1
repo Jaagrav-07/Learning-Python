@@ -1,0 +1,6 @@
+#Take a user’s full name and age as input and print them on separate lines.
+
+full_name = input("Enter your full name: ")  
+age = input("Enter your age: ")  
+print("Full Name:", full_name)  
+print("Age:", age)  

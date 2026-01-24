@@ -1,0 +1,15 @@
+#Find the factorial of a number.
+
+num = int(input("Enter a non-negative integer: "))
+factorial = 1  # Initialize the factorial result to 1.
+if num < 0:  # Check if the number is negative.
+    print("Factorial is not defined for negative numbers.")
+elif num == 0:  # Specifically check if the input is zero   
+    print("The factorial of 0 is 1.")
+else:  # Run if the number is 1 or greater
+    while num > 0:  # Continue the loop as long as num is greater than 0.
+        factorial *= num  # Multiply the current factorial by num.
+        num -= 1  # Decrement num by 1.
+    print(f"The factorial is: {factorial}")
+
+    

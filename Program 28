@@ -1,0 +1,9 @@
+#Take temperature input and classify it as low, normal, or high.
+
+temperature = float(input("Enter the temperature in Celsius: "))
+if temperature < 36:
+    print("The temperature is low.")
+elif 36 <= temperature <= 37:
+    print("The temperature is normal.")
+else:
+    print("The temperature is high.")

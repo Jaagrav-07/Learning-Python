@@ -1,0 +1,8 @@
+#Take marks as input and check whether they are greater than or equal to 40.
+
+marks = float(input("Enter your marks: "))
+if marks >= 40:
+    print("You have passed.")
+else:
+    print("You have failed.")
+    
