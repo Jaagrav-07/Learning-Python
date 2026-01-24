@@ -1,0 +1,4 @@
+#Take input and print its type.
+
+user_input = input("Enter something: ")
+print("type(user_input)")
