@@ -1,0 +1,46 @@
+#Do the following comparisons:
+
+#_1. Compare two numbers using ==.
+#_2. Check if one number is greater than another.
+#_3. Check if two numbers are not equal.
+#_4. Compare two strings.
+#_5. Check if age is above 18.
+#_6. Check if number lies between 10 and 50.
+#_7. Compare marks of two students.
+#_8. Check if temperature is above normal.
+#_9. Compare input number with 100.
+#_10. Print result of all comparison operators for two numbers.
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+print("a == b:", a == b)
+print("a > b:", a > b)
+print("a != b:", a != b)
+
+str1 = input("Enter first string: ")
+str2 = input("Enter second string: ")
+print("str1 == str2:", str1 == str2)
+
+age = int(input("Enter your age: "))
+print("Age above 18:", age > 18)
+
+num = float(input("Enter a number: "))
+print("Number between 10 and 50:", 10 < num < 50)
+
+marks1 = float(input("Enter marks of student 1: "))
+marks2 = float(input("Enter marks of student 2: "))
+print("Student 1 has more marks than Student 2:", marks1 > marks2)
+
+temperature = float(input("Enter the temperature: "))
+print("Temperature above normal (37°C):", temperature > 37)
+
+input_num = float(input("Enter a number to compare with 100: "))
+print("Input number greater than 100:", input_num > 100)
+print("All comparison results between a and b:")
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a < b:", a < b)
+print("a <= b:", a <= b)
+print("a > b:", a > b)
+print("a >= b:", a >= b)
