@@ -1,7 +1,0 @@
-#Take a number and check whether it lies between 10 and 100.
-
-number = float(input("Enter a number: "))
-if 10 <= number <= 100:
-    print("The number lies between 10 and 100.")
-else:
-    print("The number does not lie between 10 and 100.")
