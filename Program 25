@@ -1,0 +1,5 @@
+#Convert integer to float.
+
+int_input = int(input("Enter an integer: "))
+float_output = float(int_input)
+print("The float value is:", float_output)
