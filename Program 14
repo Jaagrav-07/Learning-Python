@@ -1,0 +1,4 @@
+#Take city name and print a greeting message.
+
+city = input("Enter your city name: ")
+print(f"Welcome to {city}!")
