@@ -1,0 +1,8 @@
+#Print the multiplication table of a number using while.
+
+num = int(input("Enter a number: "))
+i = 1  # Initialize the counter variable
+print(f"Multiplication Table for {num}:")
+while i <= 10:  # Continue the loop as long as i is less than or
+    print(f"{num} x {i} = {num * i}")  # Calculate num times i and print the result
+    i += 1  # Increment i by 1
