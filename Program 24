@@ -1,0 +1,5 @@
+#Convert string input to integer.
+
+user_input = input("Enter a number: ")
+num = int(user_input)
+print("The integer value is:", num)
