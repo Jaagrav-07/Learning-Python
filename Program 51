@@ -1,0 +1,82 @@
+# -------------------------------
+# SECTION 1: INPUT / OUTPUT
+# -------------------------------
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("Name:", name)
+print("Age:", age)
+
+# -------------------------------
+# SECTION 2: ARITHMETIC OPERATIONS
+# -------------------------------
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+
+# -------------------------------
+# SECTION 3: COMPARISON + CONDITIONS
+# -------------------------------
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are NOT eligible to vote.")
+
+if num1 > num2:
+    print("First number is greater.")
+elif num1 < num2:
+    print("Second number is greater.")
+else:
+    print("Both numbers are equal.")
+
+# -------------------------------
+# SECTION 4: FOR LOOP + RANGE
+# -------------------------------
+
+print("Numbers from 1 to 5:")
+for i in range(1, 6):
+    print(i)
+
+print("Multiplication table of", num1)
+for i in range(1, 11):
+    print(num1, "x", i, "=", num1 * i)
+
+# -------------------------------
+# SECTION 5: WHILE LOOP
+# -------------------------------
+
+count = 1
+sum_numbers = 0
+
+while count <= 5:
+    sum_numbers = sum_numbers + count
+    count = count + 1
+
+print("Sum of numbers from 1 to 5:", sum_numbers)
+
+# -------------------------------
+# SECTION 6: BASIC FUNCTIONS
+# -------------------------------
+
+def check_even_odd(number):
+    if number % 2 == 0:
+        print(number, "is Even")
+    else:
+        print(number, "is Odd")
+
+def square(number):
+    return number * number
+
+check_even_odd(num1)
+print("Square of", num2, "is", square(num2))
+
+# -------------------------------
+# PROGRAM END
+# -------------------------------
